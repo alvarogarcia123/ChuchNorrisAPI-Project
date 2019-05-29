@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="HelloNuget\AppDelegate.cs" />
+    <Compile Remove="HelloNuget\Main.cs" />
+    <Compile Remove="HelloNuget\Properties\AssemblyInfo.cs" />
+    <Compile Remove="HelloNuget\ViewController.cs" />
+    <Compile Remove="HelloNuget\ViewController.designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="HelloNuget\Info.plist" />
+    <None Remove="HelloNuget\Entitlements.plist" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon120.png" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon167.png" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon152.png" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon20.png" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon180.png" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon40.png" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon29.png" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon80.png" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon76.png" />
+    <None Remove="HelloNuget\Resources\LaunchScreen.xib" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon58.png" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon60.png" />
+    <None Remove="HelloNuget\LaunchScreen.storyboard" />
+    <None Remove="HelloNuget\Main.storyboard" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon87.png" />
+    <None Remove="HelloNuget\obj\iPhoneSimulator\Debug\HelloNuget.csprojAssemblyReference.cache" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <None Remove="HelloNuget\Assets.xcassets\AppIcon.appiconset\Icon1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+</Project>
